@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nbp_exchange_rate *.css
+recursive-include nbp_exchange_rate *.csv
+recursive-include nbp_exchange_rate *.html
+recursive-include nbp_exchange_rate *.ico
+recursive-include nbp_exchange_rate *.js
+recursive-include nbp_exchange_rate *.json
+recursive-include nbp_exchange_rate *.md
+recursive-include nbp_exchange_rate *.png
+recursive-include nbp_exchange_rate *.py
+recursive-include nbp_exchange_rate *.svg
+recursive-include nbp_exchange_rate *.txt
+recursive-exclude nbp_exchange_rate *.pyc
