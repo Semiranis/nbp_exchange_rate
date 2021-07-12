@@ -127,11 +127,11 @@ app_license = "MIT"
 
 # Overriding Methods
 # ------------------------------
-#
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "nbp_exchange_rate.event.get_events"
-# }
-#
+
+override_whitelisted_methods = {
+ 	"erpnext.setup.utils.get_exchange_rate": "nbp_exchange_rate.nbp_exchange_rate.custom_functions.get_exchange_rate"
+}
+
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
